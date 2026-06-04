@@ -1,0 +1,32 @@
+body.container{
+   padding-top: 70px;
+   padding-bottom: 200px;
+}
+:root {
+  --nn-chat-sky: #9edff2;
+  --nn-chat-sky-dark: #62c4df;
+  scroll-behavior: auto;
+}
+.bg-primary {
+  background-color: var(--nn-chat-sky) !important;
+}
+.btn-primary {
+  --bs-btn-bg: var(--nn-chat-sky);
+  --bs-btn-border-color: var(--nn-chat-sky-dark);
+  --bs-btn-hover-bg: var(--nn-chat-sky-dark);
+  --bs-btn-hover-border-color: var(--nn-chat-sky-dark);
+  --bs-btn-active-bg: var(--nn-chat-sky-dark);
+  --bs-btn-active-border-color: var(--nn-chat-sky-dark);
+  color: #08465a;
+}
+.btn-outline-light {
+  color: #08465a;
+  border-color: rgba(8, 70, 90, 0.35);
+}
+.text-light {
+  color: #08465a !important;
+}
+p.card-text {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
