@@ -21,8 +21,6 @@ RUN yarn install
 
 RUN npx prisma generate
 
-RUN npx prisma migrate deploy
-
 EXPOSE 8000
 
-CMD ["node", "index.js"]
+CMD ["sh", "-c", "npx prisma migrate deploy && node index.js"]
